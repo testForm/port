@@ -1,20 +1,17 @@
 <template>
   <div id="app">
-    <app-header></app-header>
-    <app-content></app-content>
-    <app-footer></app-footer>
+    <img src="./assets/logo.png">
+    <HelloWorld/>
   </div>
 </template>
 
 <script>
-import AppHeader from './layout/AppHeader.vue'
-import AppContent from './layout/AppContent.vue'
-import AppFooter from './layout/AppFooter.vue'
+import HelloWorld from './components/HelloWorld'
 
 export default {
   name: 'App',
   components: {
-    AppHeader, AppContent, AppFooter
+    HelloWorld
   }
 }
 </script>
